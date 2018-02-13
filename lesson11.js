@@ -5,7 +5,7 @@ var people = [
     { name: "John", age: 55 },
     { name: "Roger", age: 44 },
     { name: "Betty", age: 37 }
-    ]
+]
 
 var nameFilter = function(filteredName) {
     var results = []
@@ -15,6 +15,7 @@ var nameFilter = function(filteredName) {
             results.push(name)
         }
     }
+    return results
 }
 
 var filteredNames = nameFilter("Betty")
